@@ -1,1 +1,1 @@
-## WDI Class Repo
+## WDI Class Repository
