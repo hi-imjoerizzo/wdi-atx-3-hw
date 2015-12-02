@@ -1,6 +1,4 @@
-## Style using Classes and IDs - Independent Practice (10 mins)
-
-Using what we've done in class, open the [starter code](starter-code) provided and see how far you can get through these exercises in 10 minutes:
+## Style using Classes and IDs
 
 - make an unordered HTML list of the following animals:  
 
