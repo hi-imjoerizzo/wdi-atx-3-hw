@@ -1,4 +1,4 @@
-## Style using Classes and IDs
+## Style
 
 - make an unordered HTML list of the following animals:  
 
@@ -31,3 +31,7 @@
     - mammal - lavenderBlush
     - bird - lightGray
     - fish - lightYellow
+
+
+
+heres a bunch of edits
