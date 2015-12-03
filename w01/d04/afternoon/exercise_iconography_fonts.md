@@ -13,14 +13,20 @@ Given the following HTML, modify the code to include an icon next to each naviga
 		.container {
 			padding: 10%;
 		}
+		ul {
+			margin: 0;
+			padding: 0;
+		}
 		li {
 			display: inline-block;
-			margin: 0 10px;
-			padding: 13px;
+			margin: 0 10px 0 0;
+			padding: 7px;
 			background-color: black;
 		}
 		li a {
 			color: white;
+			padding: 30px;
+			text-decoration: none;
 		}
 	</style>
 </head>
