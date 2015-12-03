@@ -48,3 +48,12 @@ Given the following HTML, modify the code to include an icon next to each naviga
 </body>
 </html>
 ```
+
+## Bonus
+
+Add a CSS reset to this webpage. Take a look at a few options below and implement one. 
+
+* [Eric Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/)
+* [normalize.css](http://necolas.github.io/normalize.css/)
+* [HTML5 Reset](https://github.com/murtaugh/HTML5-Reset/tree/master/assets/css)
+
