@@ -8,7 +8,7 @@ Given the following HTML, modify the code to include an icon next to each naviga
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Iconography &amp; Web Fonts</title>
 	<style type="text/css">
 		.container {
 			padding: 10%;
