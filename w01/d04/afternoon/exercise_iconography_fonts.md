@@ -16,7 +16,7 @@ Given the following HTML, modify the code to include an icon next to each naviga
 		li {
 			display: inline-block;
 			margin: 0 10px;
-			padding: 3px;
+			padding: 13px;
 			background-color: black;
 		}
 		li a {
