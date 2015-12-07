@@ -22,6 +22,8 @@
 * `Ctrl + R` - Search your command history for something you've run before
 * `Cmd + T` - Open a new tab in the terminal window
 * `Option + ` click - Jump to any location in the terminal
+* `Cmd + Shift + ` arrow - Change terminal tabs
+* `Cmd + K` - Clear the terminal window
 
 ### Navigate directories 
 
