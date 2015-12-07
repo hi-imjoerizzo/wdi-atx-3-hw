@@ -108,7 +108,7 @@ alias homework_repo='cd ~/code/wdi/wdi-atx-3-hw'
 We have the code for our class and homework repositories organized, but now let's keep our projects organized as well. 
 
 1. In the `~/code/wdi` folder create a `projects` directory. This is where we'll put all our projects going forward
-2. Create an alias for the command `project_repo` and have it automatically change to this directory when entered
+2. Create an alias for the command `projects` and have it automatically change to this directory when entered
 3. Don't forget to `source` the **.bash_profile** for changes to take effect
 
 <hr>
