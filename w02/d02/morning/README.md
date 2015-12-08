@@ -1,8 +1,7 @@
-/**
- * Arrays
+
+## Arrays
  * Most of your answers should be stored in variables called q1, q2 etc.. and the variables printed to the console.
  	(i.e) console.log("Question 1" + q1)
- */
 
 /**
  * Question 1
@@ -36,8 +35,7 @@
 
 // ____________________________________________________________________________
 
-/**
- * Arrays + Iteration
+##Arrays + Iteration
  * Most of your answers should be stored in variables called q1, q2 etc.. and the variables printed to the console.
  	(i.e) console.log("Question 1" + q1)
  */
