@@ -80,7 +80,7 @@
 - [Javascript Inheritance via Prototypes and Closures](http://www.ruzee.com/blog/2008/12/javascript-inheritance-via-prototypes-and-closures/)
 - [Constructor vs. Class Methods in Javascript](http://idhana.com/2009/07/13/constructor-vs-class-methods-in-javascript/)
 
-##### AJAX
+#### AJAX
 - [Ajax: A New Approach to Web Applications](http://adaptivepath.org/ideas/ajax-new-approach-web-applications/): The article that introduced AJAX as a technique in 2005
 - [Javascript for Beginners: Async](http://rowanmanning.com/posts/javascript-for-beginners-async/): A small intro to the meaning of asynchronous programming
 - [jQuery's Guide to AJAX](https://learn.jquery.com/ajax/)
