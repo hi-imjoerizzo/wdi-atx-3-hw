@@ -1,19 +1,26 @@
 # WDI Resources
 
 ## CLI
-
+- [Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line)
+- [Learn Command Line the Hard Way](http://cli.learncodethehardway.org/book/)
+- [Command Line Cheat Sheet](http://www.git-tower.com/blog/command-line-cheat-sheet/)
+- [Vim Adventures](http://vim-adventures.com/): A game that teaches you how Vim works
+- `man <command you want to learn about>`: The `man` command will give you the official documentation about most Terminal commands
 
 ## Git
 - [Pro Git](http://git-scm.com/book)
-- [Git Immersion](http://gitimmersion.com): A step-by-step guide to Git in plain English, with a fancy user interface
+- [Learn Git Branching](http://pcottle.github.io/learnGitBranching/): Fantastic interactive tutorial on basic and advanced Git
 - [Atlassian Git Guide](https://www.atlassian.com/git/): Awesome guide to using Git collaboratively, with tutorials
+- [Git Immersion](http://gitimmersion.com): A step-by-step guide to Git in plain English, with a fancy user interface
 - [Try Git](https://try.github.io): Code School's fully interactive Git tutorial. Also looks pretty fancy.
-- [Commits from Last Night](http://www.commitlogsfromlastnight.com/): NSFW - funny commit messages.
 - [Git Happens (video)](https://www.youtube.com/watch?v=Dv8I_kfrFWw)
 - [Git From the Bits Up](https://www.youtube.com/watch?v=MYP56QJpDr4)
 - [Git Good](http://git.gd/)
 - [Git Ready](http://gitready.com/)
 - `git help <command>`
+- [Commits from Last Night](http://www.commitlogsfromlastnight.com/): NSFW - funny commit messages.
+
+## Internet and Web
 
 ## HTML
 - [Mozilla HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML): Mozilla's documentation on HTML.
@@ -29,41 +36,44 @@
 - [Jesse, on Pseudo Classes](http://sketchbook.nclud.com/practical-pseudo-elements-classes/): Jesse writes things!
 - [Eric Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/): Simple CSS reset
 
-##### CSS Frameworks
+#### CSS Frameworks
 - [Bootstrap](http://getbootstrap.com/): Most popular CSS framework
 - [Zurb Foundation](http://foundation.zurb.com/): Most AWESOME CSS Framework
 - [Pure CSS](http://purecss.io/): Yahoo's stripped down CSS framework
 
-##### Typography & Iconography
+#### Typography & Iconography
 - [Google Fonts](https://www.google.com/fonts): Library/CDN for web compatible fonts
 - [Using @font-face](http://css-tricks.com/snippets/css/using-font-face/): CSS Tricks article on using `@font-face`
 - [Copy Paste Character](http://copypastecharacter.com/): Library of common UTF-8 icons
 - [Font Awesome](http://fortawesome.github.io/Font-Awesome/): Awesome font icons for awesome people
 
-##### SASS
+#### CSS Preprocessors
 - [Sass](http://sass-lang.com/): Official Sass docs
 - [The Sass Way](http://thesassway.com/): Great blog about Sass
+- [Less CSS](http://lesscss.org/): Another CSS preprocessor very similar to SASS
 
 ## Javascript
-
-##### JS Basics
-- [Paul Irish's Blog](http://www.paulirish.com/): Developer for Google Chrome, talks a lot about Javascript performance and dev tools/debugging techniques
 - [Javascript Basics from Mozilla](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
-- [Mozilla's Introduction to Object Oriented Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript?redirectlocale=en-US&redirectslug=Introduction_to_Object-Oriented_JavaScript)
 - [Javascript Basics](https://autotelicum.github.io/Smooth-CoffeeScript/literate/js-intro.html)
+- [Eloquent Javascript](http://eloquentjavascript.net/): Excellent book about writing good Javascript
+- [Javascript: The Good Parts](https://www.safaribooksonline.com/library/view/javascript-the-good/9780596517748/)
 - [David Walsh's Blog](http://davidwalsh.name/): A Mozilla developer's blog, focusing mostly on front end issues.
+- [Paul Irish's Blog](http://www.paulirish.com/): Developer for Google Chrome, talks a lot about Javascript performance and dev tools/debugging techniques
 - [24 Javascript Best Practices for Beginners](http://code.tutsplus.com/tutorials/24-javascript-best-practices-for-beginners--net-5399)
+
+#### jQuery
+- [Official jQuery Docs](https://api.jquery.com/)
+- [Learn jQuery](http://learn.jquery.com/)
+- [Try jQuery](http://try.jquery.com/): CodeSchool course on jQuery
+
+#### Object Oriented Javascript
+- [Jordan Kasper's Interactive Guide to OOP JS](https://jordankasper.com/oop-js/#/)
+- [Mozilla's Introduction to Object Oriented Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript?redirectlocale=en-US&redirectslug=Introduction_to_Object-Oriented_JavaScript)
+- [John Resig's "Learning Advanced Javascript" Interactive Tutorial](http://ejohn.org/apps/learn/)
 - [Objects as Associative Arrays](http://www.quirksmode.org/js/associative.html)
 - [Getting Out of Binding Situations in Javascript](http://www.alistapart.com/articles/getoutbindingsituations)
 - [Understanding Scope and Context in Javascript](http://ryanmorr.com/understanding-scope-and-context-in-javascript/)
 - [Everything You Wanted to Know about Javascript Scope](http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
-
-##### jQuery
-- [Learn jQuery](http://learn.jquery.com/)
-
-##### Object Oriented Javascript
-- [Jordan Kasper's Interactive Guide to OOP JS](https://jordankasper.com/oop-js/#/)
-- [John Resig's "Learning Advanced Javascript" Interactive Tutorial](http://ejohn.org/apps/learn/)
 - [Mozilla Guide to Inheritance and the Prototype Chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 - [Douglas Crockford on Prototypal Inheritance in Javascript](http://javascript.crockford.com/prototypal.html)
 - [Yehuda Katz on Understanding Prototypes in Javascript](http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/)
@@ -73,15 +83,33 @@
 ##### AJAX
 - [Ajax: A New Approach to Web Applications](http://adaptivepath.org/ideas/ajax-new-approach-web-applications/): The article that introduced AJAX as a technique in 2005
 - [Javascript for Beginners: Async](http://rowanmanning.com/posts/javascript-for-beginners-async/): A small intro to the meaning of asynchronous programming
+- [jQuery's Guide to AJAX](https://learn.jquery.com/ajax/)
+- [Easy AJAX with jQuery](http://www.sitepoint.com/ajax-jquery/)
+- [AJAX Basics](https://teamtreehouse.com/library/ajax-basics): Team Treehouse guide to AJAX
 
-##### Node.js
+#### Node.js
+- [Node.js Official Docs](https://nodejs.org/en/docs/)
+- [NodeSchool](http://nodeschool.io/): Like CodeSchool, for Node :)
+- [Code Tuts, Node.js Category](http://code.tutsplus.com/categories/nodejs)
+- [How to Node](http://howtonode.org/)
+- [NodeCasts](http://nodecasts.net/): Video series on Node, similar to Railscasts
+- [NodeTuts](http://nodetuts.com/)
+- [Learn All the Nodes](https://learnallthenodes.com/)
 
-##### Front End JS Frameworks
+#### Front End JS Frameworks
+
+###### [Backbone.js](http://backbonejs.org/)
+
+###### [React.js](https://facebook.github.io/react/)
+
+###### Angular [version 1.0](https://angularjs.org/) and [version 2.0](https://angular.io/)
 - [Todd Motto's Blog](http://toddmotto.com/): This guy develops a lot of Angular apps, then blogs about it
+
+###### [Ember.js](http://emberjs.com/)
 
 ## Ruby
 
-##### Ruby Basics
+#### Ruby Basics
 - [Official Ruby documentation & resources](https://www.ruby-lang.org/en/documentation/): From the official Ruby site
 - [Ruby Documentation](http://ruby-doc.org/): The best place for Ruby documentation
 - [Try Ruby](http://tryruby.org/): An interactive walkthrough of the basics of Ruby, by CodeSchool.
@@ -91,22 +119,23 @@
 - [JS-Ruby Comparison](http://agentcooper.io/js-ruby-comparison/): See the same code in Ruby and Javascript, side by side to compare
 - [Ruby Symbols vs. Strings](http://www.reactive.io/tips/2009/01/11/the-difference-between-ruby-symbols-and-strings/)
 
-##### Sinatra
+#### Sinatra
 - [Intro to Sinatra](http://www.sinatrarb.com/intro.html)
 - [Code Tuts Sinatra Tutorial](http://code.tutsplus.com/tutorials/an-introduction-to-haml-and-sinatra--net-14858)
+- [Let's Build a Sinatra](https://robots.thoughtbot.com/lets-build-a-sinatra): Guide to how to recreate Sinatra on Rack
 
-##### Ruby on Rails
+#### Ruby on Rails
 - [Rails Guides](http://guides.rubyonrails.org/): Official guides for Rails, some of the best docs I've read
 - [Railscasts](http://railscasts.com/): Even after many years, still the best resource for Rails video tutorials around
 
 ## Databases
 
-##### Data Modeling/ERDs
+#### Data Modeling/ERDs
 - [Data Modeling using ERD](http://www.codeproject.com/Articles/878359/Data-modelling-using-ERD-with-Crow-Foot-Notation): Walkthrough of how to use "crow foot notation" to create an ERD
 - [ERD Training Video](https://www.youtube.com/watch?v=-fQ-bRllhXc): Great video on what ERDs are, how they tie to our database, and how to create them
 - [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization): Wikipedia 
 
-##### SQL
+#### SQL
 - [Database Design](http://faculty.washington.edu/ocarroll/infrmatc/database/design/sld001.htm): A pretty good overview of good database design
 - [A Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/): Coding Horror explains SQL Joins
 - [Quick Guide to SQL](http://www.tutorialspoint.com/sql/sql-quick-guide.htm)
@@ -116,7 +145,7 @@
 - [Postgres App for Mac](http://postgresapp.com/)
 - [PG Gem Documentation](http://deveiate.org/code/pg/)
 
-##### Active Record
+#### Active Record
 - [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html)
 - [Active Record Migrations](http://guides.rubyonrails.org/migrations.html)
 - [Active Record Validations](http://guides.rubyonrails.org/active_record_validations.html)
@@ -124,14 +153,22 @@
 - [Active Record Associations](http://guides.rubyonrails.org/association_basics.html)
 - [Advanced Query Interface](http://guides.rubyonrails.org/active_record_querying.html)
 
-##### NoSQL
+#### NoSQL
+
+###### [MongoDB](https://www.mongodb.com)
+- [MongoDB explains NoSQL](https://www.mongodb.com/nosql-explained)
+- [Intro to MongoDB](http://www.slideshare.net/drumwurzel/intro-to-mongodb/23-Features_Schemaless_very_exible_no)
+- [Mongo University](https://university.mongodb.com/)
+
+###### [Redis](http://redis.io/)
 
 ## APIs
 
-##### Tools
+#### Tools
 - [Postman](https://www.getpostman.com/features)
+- `curl`: Check out `man curl` for options
 
-##### API Design
+#### API Design
 - [Principles of Good, RESTful API Design](http://codeplanet.io/principles-good-restful-api-design/)
 - [RESTful API Design](https://restful-api-design.readthedocs.org)
 - [5 Golden Rules for Great API Design](http://www.toptal.com/api-developers/5-golden-rules-for-designing-a-great-web-api)
@@ -144,7 +181,7 @@
 - [BDD, TDD, and the other Double D's](http://codebetter.com/jeremymiller/2007/09/06/bdd-tdd-and-the-other-double-d-s/): Description of TDD, BDD, and differences between them
 - [BDD vs TDD explained](https://www.youtube.com/watch?v=mT8QDNNhExg): Good video on differences between BDD and TDD
 
-##### Ruby Testing
+#### Ruby Testing
 - [Rspec](http://rspec.info/): Testing framework for Ruby
 - [Relish documentation](http://www.relishapp.com/rspec/rspec-expectations/v/3-3/docs): Find the different types of built in matchers for Rspec and Cucumber
 - [Back to Basics: Writing Unit Tests First](https://robots.thoughtbot.com/back-to-basics-writing-unit-tests-first): Thoughtbot tutorial on how to write tests first
@@ -152,7 +189,7 @@
 
 ## Security
 
-##### User Auth and Password Security
+#### User Auth and Password Security
 - [Rails Guide: What are Sessions?](http://guides.rubyonrails.org/security.html#what-are-sessions-questionmark)
 - [How NOT to Store Passwords Video](https://www.youtube.com/watch?v=8ZtInClXe1Q)
 - [A Visual Description of Public Key Cryptography](https://www.youtube.com/watch?v=3QnD2c4Xovk)
@@ -162,19 +199,19 @@
 - [Michael Hartl Rails Guide, Secure Password section](https://www.railstutorial.org/book/modeling_users#sec-adding_a_secure_password)
 - [A Simple Roll-Your-Own Login Pattern for Sinatra](http://stackoverflow.com/questions/3559824/what-is-a-very-simple-authentication-scheme-for-sinatra-rack)
 - [Description of what a Salt is](http://crypto.stackexchange.com/questions/1776/can-you-help-me-understand-what-a-cryptographic-salt-is): Great description - 'A salt is simply added to make a common password uncommon'
-- [Beginner's Guide to SSL Certificates](http://www.symantec.com/content/en/us/enterprise/white_papers/b-beginners-guide-to-ssl-certificates_WP.pdf)
 - ["Cookies are Bad for You"](http://sitr.us/2011/08/26/cookies-are-bad-for-you.html): A description of how token-based authentication (rather than cookie based) may be more secure and effective
 
-##### Cryptography
+#### Encryption && Cryptography
 - [Public Key Cryptography](https://www.youtube.com/watch?v=GSIDS_lvRv4): Great Computerphile video on the basics of asymmetric crypto
 - [Public Key Cryptography: Diffie-Hellman Key Exchange](https://www.youtube.com/watch?v=3QnD2c4Xovk): Another cool video on the basics of asymmetric cryptography
+- [Beginner's Guide to SSL Certificates](http://www.symantec.com/content/en/us/enterprise/white_papers/b-beginners-guide-to-ssl-certificates_WP.pdf)
 
 ## Dev Ops
 
-##### Deployment
+#### Deployment
 - [Figaro](https://github.com/laserlemon/figaro): A gem for hiding application secrets as environment variables
 
-##### Background Processing
+#### Background Processing
 - [Cron Job Tutorial](http://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800): A tutorial on how to use Cron and Crontab to schedule commands (not ideal)
 - [Active Job Guide](http://edgeguides.rubyonrails.org/active_job_basics.html): Rails guide on how to use its own native Background
 - [Resque](https://github.com/resque/resque): A precursor to Active Job, very similar in function
@@ -185,24 +222,26 @@
 
 ## General Programming
 
-##### Computer Science
+#### Programming Patterns
+
+#### Computer Science
 - [Khan Academy Computer Science](https://www.khanacademy.org/computing/computer-science): Awesome, awesome interactive resource for learning computer science
 
-##### Blogs/Reading
+#### Blogs/Reading
 - [HackerShelf](http://hackershelf.com/browse/): List of FREE programming books on nearly every topic you can think of
+- [CodeTuts](http://code.tutsplus.com/): A blog/tutorial site about the web in general, both front and back end. Part of the excellent TutsPlus network.
+- [A List Apart](http://alistapart.com/): One of the oldest, and still best, front end web dev blogs
 - [CSS Tricks](http://css-tricks.com/): The best blog about CSS
 - [David Walsh's Blog](http://davidwalsh.name/): A Mozilla developer's blog, focusing mostly on front end issues.
 - [Coding Horror](http://blog.codinghorror.com/): Jeff Atwood's (founder of Stack Overflow, Discourse) personal blog.
 - [Smashing Magazine](http://www.smashingmagazine.com/): A blog/zine about web design and front-end issues, with the occasional tutorial.
-- [CodeTuts](http://code.tutsplus.com/): A blog/tutorial site about the web in general, both front and back end. Part of the excellent TutsPlus network.
-- [A List Apart](http://alistapart.com/): One of the oldest, and still best, front end web dev blogs
 
-##### Coding Practice/Challenges
-- [TalentBuddy](http://www.talentbuddy.co/): A coding challenge site to practice your skillz
-- [Project Euler](http://projecteuler.net/): Popular programming problems to solve
+#### Coding Practice/Challenges
 - [Code School](https://www.codeschool.com/): Hands down the best online interactive code tutorial site. Use your GA discount!
 - [Code Academy](http://www.codecademy.com/): Learn to code in a bunch of languages
 - [Team Treehouse](http://teamtreehouse.com/): Really good content and interactive tutorials. Not free.
+- [Project Euler](http://projecteuler.net/): Popular programming problems to solve
+- [Exercism.io](http://exercism.io/): Downloadable code challenges
 
-##### Software Development Life Cycle
+#### Software Development Life Cycle
 - [The Agile Manifesto](http://agilemanifesto.org/)
