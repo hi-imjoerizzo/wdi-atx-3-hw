@@ -9,7 +9,7 @@
 - Iterate over and and manipulate values in an array
 - Describe how arrays are used to store data
 
-## What is a data type? Intro (5 mins)
+## What is a data type?
 
 From the [Wikipedia](https://en.wikipedia.org/wiki/Data_type):
 
