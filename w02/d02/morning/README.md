@@ -260,7 +260,7 @@ JavaScript distinguishes between:
 - `null` a value that indicates a deliberate non-value
 - `undefined` that indicates an uninitialized value — that is, a value hasn't even been assigned yet
 
-## Variables and Keywords - Codealong (10 mins)
+## Variables and Keywords
 
 Variables are used to store data types into the memory of the computer so that they can be referenced later.
 
@@ -452,7 +452,7 @@ Arrays come with a number of methods. Here's a list of some popular helpers:
 
 Remember, though, you'll never remember _every_ method.  Explore the the [full documentation for array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) and other helper methods given to you for particular objects.
 
-## Iterating through an array - Codealong (10 mins)
+## Iterating through an array
 
 Iterating through the elements of an array, one at a time, is a very common practice in programming.
 
