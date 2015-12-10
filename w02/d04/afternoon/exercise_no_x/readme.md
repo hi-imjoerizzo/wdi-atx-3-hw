@@ -2,7 +2,7 @@
 
 **Pair Programming - 20 min**
 
-You have a new client that despises the letter "x" with a passion. Make sure this text input prevents users from typing in the letter "x" as they type.
+You have a new client that despises the letter "**x**" with a passion. Make sure this text input prevents users from typing in the letter "**x**" as they type.
 
 Tips:
 * Look through the list of DOM events and find one that will work for this situation
