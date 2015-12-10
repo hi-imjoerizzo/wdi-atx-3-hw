@@ -2,7 +2,7 @@
 
 **20min**
 
-Let's display a person's first and last name really large on the page, so they don't forget what it is. 
+Let's display a person's first and last name really large on the page so they don't forget what it is. 
 
 * Using jQuery, create a ``` click ``` event handler that will capture the form contents when the user clicks the "**Show my name**" button
 * Display their first and last name onto the page by manipulating the DOM.
