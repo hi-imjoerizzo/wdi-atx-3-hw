@@ -5,22 +5,26 @@
   <title>What's my name?</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <style type="text/css">
-    form, h1 {
+    body {
+      margin: 10% 2%;
+    }
+
+    form, h2 {
       margin: 30px;
     }
 
     input {
       width: 25%;
-      padding: 5px;
+      padding: 8px;
+      font-size: 120%;
     }
 
-    h1 {
-      font-family: Helvetica, Arial, sans-serif;
+    h2 {
+      font: bold 170%/135% Helvetica, Arial, sans-serif;
       color: #333;
-      line-height: 135%;
     }
 
-    #show_name {
+    #btn-show {
       background-color: green;
       color: #fff;
     }
@@ -28,13 +32,13 @@
 </head>
 <body>
   <form name="name_form" id="name_form">
-    <input type="text" name="first_name" id="first_name" placeholder="First name">
-    <input type="text" name="last_name" id="last_name" placeholder="Last name">
+    <input type="text" name="fname" id="fname" placeholder="First name">
+    <input type="text" name="lname" id="lname" placeholder="Last name">
 
-    <input type="button" name="show_name" id="show_name" value="Show my name">
+    <input type="button" name="btn-show" id="btn-show" value="Show">
   </form>
 
-  <h1>Hello, my name is <span id="first">__________</span> <span id="second">__________</span> and I like long walks on the beach.</h1>
+  <h2>Hello, my name is <span id="first">__________</span> <span id="second">__________</span> and I like long walks on the beach.</h2>
 
   <script type="text/javascript">
 
