@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery</title>   
+    <link rel="stylesheet" href="css/main.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis harum neque cum rem error consequuntur laboriosam necessitatibus dolorum, dicta doloremque laborum voluptatem dignissimos dolor architecto eligendi, eaque facere voluptates ab.</p>
+		<a href="http://espn.go.com/">ESPN</a>
+
+		<div class="hello">Hello,</div>
+		<div class="hello">is it me <span>your</span> </div>
+		<div class="hello">looking for?</div>
+	</header>
+    <p>        more content           </p>
+	<div>I can see it in your</div>
+	<p id="smile">I can see it in your smile</p>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+<!--    
+	_______________________________________________________________
+	<script type="text/javascript" src="../jquery-1.11.1.js"></script>
+	_______________________________________________________________
+    <script type="text/javascript">
+        $("document").ready(function() {
+            $("body").append("<p>The page just loaded!</p>");
+        });
+    </script>
+	_______________________________________________________________
+        window.addEventListener("DOMContentLoaded", function(evt) {
+            var elem = document.getElementsByTagName("body")[0];
+            var para = document.createElement("p");
+            var text = document.createTextNode("The page just loaded!");
+            para.appendChild(text);
+            elem.appendChild(para);
+        });
+    _______________________________________________________________
+<html>
+<body>
+
+  <div id="container"></div>
+
+</body>
+</html>
+    _______________________________________________________________
+  var myDiv = document.getElementById('container');
+  var newP = document.createElement('p');
+  newP.innerHTML = "Hello complicated, multi-step world of adding an element to the DOM!";
+  myDiv.appendChild(newP);
+    _______________________________________________________________
+ $('#container').append("<p>").append("Hello simple insertion using jQuery chaining");
+    _______________________________________________________________
+
+ <div class="grandparent">
+    <div class="parent">
+        <div class="child">
+            <span class="subchild"></span>
+        </div>
+    </div>
+    <div class="surrogateParent1"></div>
+    <div class="surrogateParent2"></div>
+</div>
+// Selecting an element's direct parent:
+ 
+// returns [ div.child ]
+$( "span.subchild" ).parent();
+ 
+// Selecting all the parents of an element that match a given selector:
+ 
+// returns [ div.parent ]
+$( "span.subchild" ).parents( "div.parent" );
+ 
+// returns [ div.child, div.parent, div.grandparent ]
+$( "span.subchild" ).parents();
+ 
+// Selecting all the parents of an element up to, but *not including* the selector:
+ 
+// returns [ div.child, div.parent ]
+$( "span.subchild" ).parentsUntil( "div.grandparent" );
+ 
+// Selecting the closest parent, note that only one parent will be selected
+// and that the initial element itself is included in the search:
+ 
+// returns [ div.child ]
+$( "span.subchild" ).closest( "div" );
+ 
+// returns [ div.child ] as the selector is also included in the search:
+$( "div.child" ).closest( "div" );
+
+// Selecting an element's direct children:
+ 
+// returns [ div.parent, div.surrogateParent1, div.surrogateParent2 ]
+$( "div.grandparent" ).children( "div" );
+ 
+// Finding all elements within a selection that match the selector:
+ 
+// returns [ div.child, div.parent, div.surrogateParent1, div.surrogateParent2 ]
+$( "div.grandparent" ).find( "div" );
+
+// Selecting a next sibling of the selectors:
+ 
+// returns [ div.surrogateParent1 ]
+$( "div.parent" ).next();
+ 
+// Selecting a prev sibling of the selectors:
+ 
+// returns [] as No sibling exists before div.parent
+$( "div.parent" ).prev();
+ 
+// Selecting all the next siblings of the selector:
+ 
+// returns [ div.surrogateParent1, div.surrogateParent2 ]
+$( "div.parent" ).nextAll();
+ 
+// returns [ div.surrogateParent1 ]
+$( "div.parent" ).nextAll().first();
+ 
+// returns [ div.surrogateParent2 ]
+$( "div.parent" ).nextAll().last();
+ 
+// Selecting all the previous siblings of the selector:
+ 
+// returns [ div.surrogateParent1, div.parent ]
+$( "div.surrogateParent2" ).prevAll();
+ 
+// returns [ div.surrogateParent1 ]
+$( "div.surrogateParent2" ).prevAll().first();
+ 
+// returns [ div.parent ]
+$( "div.surrogateParent2" ).prevAll().last();
+
+// Selecting an element's siblings in both directions that matches the given selector:
+ 
+// returns [ div.surrogateParent1, div.surrogateParent2 ]
+$( "div.parent" ).siblings();
+ 
+// returns [ div.parent, div.surrogateParent2 ]
+$( "div.surrogateParent1" ).siblings();
+
+_________________________________________________________________
+-->
