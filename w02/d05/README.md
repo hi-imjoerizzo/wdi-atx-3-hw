@@ -9,6 +9,7 @@ In today's lab you're going to build a snazzy webpage that allows users to perfo
 - Review your notes on manipulating the HTML DOM with JavaScript
  
 ### REQUIREMENTS
+- You will be working in pairs, create a git repo and use github to share code on your project.
 - The user should be able to specify two numbers to calculate, as well as a simple arithmetic operation to perform (addition, subtraction, multiplication, division).
 - The calculator should calculate the result of the operation and display it to the user. Then the calculator should reset itself (clear the form fields) to ready itself for the next calculation.
 - There should be a running list of all the calculations that have been performed so far underneath the calculator itself. Once a calculation is performed, the results of calculation should be added to the list.
