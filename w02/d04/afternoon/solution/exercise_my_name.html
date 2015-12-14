@@ -38,16 +38,20 @@
     <input type="button" name="btn-show" id="btn-show" value="Show">
   </form>
 
-  <h2>Hello, my name is <span id="first">__________</span> <span id="second">__________</span> and I like long walks on the beach.</h2>
+  <h2>Hello, my name is <span id="first">__________</span> <span id="last">__________</span> and I like long walks on the beach.</h2>
 
   <script type="text/javascript">
 
-    // Write your event handling code here
-$( "h1" ).click(function() {
-  $( this ).slideUp();
-});
-  </script>
+    $(function() {
+      $('#btn-show').on('click', function() {
+        var firstName = $('#fname').val();
+        var lastName = $('#lname').val();
 
- <script src="/Users/joe_rizzo/Desktop/frameworks/bower_components/jquery/dist/jquery.js"></script>
+        $('#first').text(firstName);
+        $('#last').html(lastName);
+      });
+    });
+
+  </script>
 </body>
 </html>
