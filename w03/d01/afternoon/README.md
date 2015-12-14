@@ -18,6 +18,7 @@
 - CSS shorthand
    * margin/padding
    * font
+   * border
    * background
 - Making CSS more maintainable
   * Linking multiple files 
