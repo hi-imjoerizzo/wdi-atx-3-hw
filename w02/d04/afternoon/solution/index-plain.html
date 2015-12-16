@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<a id="click-me" href="http://www.google.com">Take me to the Google</a>
+
+<script type="text/javascript">
+
+  var link = document.getElementById('click-me');
+  link.addEventListener('click', function(e) {
+    alert('Good job clicking on me');
+
+    e.preventDefault();
+  });
+  link.addEventListener('click', function(e) {
+    alert('Me too!');
+
+    e.preventDefault();
+  });
+
+</script>
+</body>
+</html>

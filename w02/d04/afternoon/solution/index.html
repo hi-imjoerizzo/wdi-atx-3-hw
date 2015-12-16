@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title></title>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript">
+
+  // Run this code when the DOM is ready
+  $(function() {
+    
+    $('#click-me, #click-me-2').on('click', function(event) {
+      console.log(event);
+      console.log(this);
+
+      alert($(this).text());
+
+      return false;
+    });
+
+  });
+
+  </script>
+</head>
+<body>
+
+<a id="click-me" href="http://www.google.com">Take me to the Google</a>
+
+<a id="click-me-2" href="http://www.yahoo.com">Take me to the Yahoo</a>
+
+</body>
+</html>
