@@ -1,0 +1,8 @@
+nba_db=# SELECT * FROM players WHERE team='NYK';
+nba_db=# SELECT * FROM players WHERE team='IND' AND age<'26';
+nba_db=# SELECT * FROM players ORDER BY points ASC;
+nba_db=# SELECT name, (points/games) AS ppg FROM players ORDER BY ppg DESC LIMIT 20;
+#
+#
+#
+nba_db=# SELECT team, SUM(points) AS team_points FROM players GROUP BY team ORDER BY team_points DESC;
