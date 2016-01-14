@@ -12,3 +12,8 @@ Time for a game… but first we'll need a deck of playing cards. Use `deck_o_car
 ## Bonus
 
 1. Make a new array that pulls the top 5 cards and gives you a hand of poker!!
+
+
+
+The cat ran into the fire and the fire went out,  when the cat ame out of the fire
+the cat was no longer a cat but a man,  and when the man became a cat again he was suprised . the cat world no longer revolved around man but around the man-ness of cats, which is of course where the k9 confederation came into frey...

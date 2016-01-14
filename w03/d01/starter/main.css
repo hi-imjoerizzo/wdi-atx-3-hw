@@ -1,0 +1,145 @@
+/* styles.scss */
+
+body {
+  background-color: black; }
+
+h1 {
+  font-family: "Trebuchet MS", sans-serif;
+  color: rgba(0, 215, 253, 0.9);
+  text-align: center;
+  margin: 25px 150px; }
+
+h2 {
+  font-family: "Trebuchet MS", italic;
+  color: white;
+  text-align: center;
+  margin: 25px 150; }
+
+h3 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin: 25px 150px; }
+
+div {
+  background-color: rgba(0, 215, 253, 0.1);
+  margin: 0px 50px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border: 5px outset black }
+
+
+.container {
+  height: 700px;
+  width: 500px;
+  margin: 0px auto;
+  background-color: black;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border: 10px outset rgba(0, 215, 253, 0.9); }
+
+.allInputs {
+  text-align: center;
+  width: 300px;
+  margin: 30px auto; }
+
+.input {
+  display: inline-block;
+  margin: 5px 10px;
+  border: 5px outset rgba(0, 215, 253, 0.9);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px; }
+
+.allOperators {
+  margin-top: 5px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px; }
+
+#bigClear {
+  background-color: black;
+  color: rgba(0, 215, 253, 0.9);
+  height: 35px;
+  width: 75px;
+  border: 5px outset rgba(0, 215, 253, 0.9);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px; }
+
+#addition {
+  background-color: black;
+  color: rgba(0, 215, 253, 0.9);
+  height: 35px;
+  width: 50px;
+  border: 5px outset rgba(0, 215, 253, 0.9);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 16pt; }
+
+#subtraction {
+  background-color: black;
+  color: rgba(0, 215, 253, 0.9);
+  height: 35px;
+  width: 50px;
+  border: 5px outset rgba(0, 215, 253, 0.9);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 16pt; }
+
+#multiply {
+  background-color: black;
+  color: rgba(0, 215, 253, 0.9);
+  height: 35px;
+  width: 50px;
+  border: 5px outset rgba(0, 215, 253, 0.9);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 16pt; }
+
+#divide {
+  background-color: black;
+  color: rgba(0, 215, 253, 0.9);
+  height: 35px;
+  width: 50px;
+  border: 5px outset rgba(0, 215, 253, 0.9);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 16pt; }
+
+.operator {
+  margin-top: 20px;
+  text-align: center; }
+
+.result {
+  margin-top: 10px;
+  text-align: center;
+  color: rgba(0, 215, 253, 0.9);
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 36pt; }
+
+.history {
+  color: rgba(0, 215, 253, 0.9);
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 10pt; }
+
+/*# sourceMappingURL=main.css.map */

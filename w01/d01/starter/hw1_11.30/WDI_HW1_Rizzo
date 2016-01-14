@@ -1,0 +1,210 @@
+Last login: Mon Nov 30 15:47:54 on ttys000
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.6.2
+Homebrew 0.9.5 (git revision 93a8; last commit 2015-11-30)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]
+node v5.1.0
+psql (PostgreSQL) 9.4.5
+------------------------------------------
+type unwelcome to remove this message
+joe_rizzo ~
+$ ls
+Applications/  Documents/  JoeRizzo/  Movies/  Pictures/  TomorrowNight.terminal
+Desktop/       Downloads/  Library/   Music/   Public/	  code/
+joe_rizzo ~
+$ cd Desktop
+joe_rizzo ~/Desktop
+$ ls
+Adobe Edge Animate CC 2015  Fonts/				       Studies/
+Adobe Illustrator CC 2015   Fundamentals/			       TextEdit
+Adobe InDesign CC 2015	    Fundamentals Screenshots/		       The Shapery/
+Adobe Lightroom		    General Assembly/			       VLC
+Adobe Photoshop CC 2015     Misc/				       kitchen/
+Chess			    Personal Brand/			       wdi3/
+Creative Work/		    Rich Monkey/
+Filo Pickens_Movie Poster/  Screen Shot 2015-11-30 at 11.48.37 PM.png
+joe_rizzo ~/Desktop
+$ cd kitchen
+joe_rizzo ~/Desktop/kitchen
+$ pwd
+/Users/joe_rizzo/Desktop/kitchen
+joe_rizzo ~/Desktop/kitchen
+$ ls
+cans.txt  fridge/  pantry/
+joe_rizzo ~/Desktop/kitchen
+$ rm cans.txt
+removed ‘cans.txt’
+joe_rizzo ~/Desktop/kitchen
+$ ls
+fridge/  pantry/
+joe_rizzo ~/Desktop/kitchen
+$ cd fridge
+joe_rizzo ~/Desktop/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt  trashcan/
+joe_rizzo ~/Desktop/kitchen/fridge
+$ mv trashcan ..
+‘trashcan’ -> ‘../trashcan’
+joe_rizzo ~/Desktop/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt
+joe_rizzo ~/Desktop/kitchen/fridge
+$ cd ..
+joe_rizzo ~/Desktop/kitchen
+$ ls
+fridge/  pantry/  trashcan/
+joe_rizzo ~/Desktop/kitchen
+$ cd trashcan
+joe_rizzo ~/Desktop/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt  sink/
+joe_rizzo ~/Desktop/kitchen/trashcan
+$ mv sink ..
+‘sink’ -> ‘../sink’
+joe_rizzo ~/Desktop/kitchen/trashcan
+$ cd ..
+joe_rizzo ~/Desktop/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+joe_rizzo ~/Desktop/kitchen
+$ cd fridge
+joe_rizzo ~/Desktop/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt
+joe_rizzo ~/Desktop/kitchen/fridge
+$ rm diapers.txt
+removed ‘diapers.txt’
+joe_rizzo ~/Desktop/kitchen/fridge
+$ ls
+freezer/  milk.txt
+joe_rizzo ~/Desktop/kitchen/fridge
+$ mkdir crisper-drawer && touch apples.txt lettuce.txt
+mkdir: created directory ‘crisper-drawer’
+joe_rizzo ~/Desktop/kitchen/fridge
+$ ls
+apples.txt  crisper-drawer/  freezer/  lettuce.txt  milk.txt
+joe_rizzo ~/Desktop/kitchen/fridge
+$ mv lettuce.txt && milk.txt crisper-drawer
+mv: missing destination file operand after ‘lettuce.txt’
+Try 'mv --help' for more information.
+joe_rizzo ~/Desktop/kitchen/fridge
+$ mv lettuce.txt crisper-drawer
+‘lettuce.txt’ -> ‘crisper-drawer/lettuce.txt’
+joe_rizzo ~/Desktop/kitchen/fridge
+$ mv milk.txt crisper drawer
+mv: target ‘drawer’ is not a directory
+joe_rizzo ~/Desktop/kitchen/fridge
+$ mv milk.txt crisper-drawer
+‘milk.txt’ -> ‘crisper-drawer/milk.txt’
+joe_rizzo ~/Desktop/kitchen/fridge
+$ ls
+apples.txt  crisper-drawer/  freezer/
+joe_rizzo ~/Desktop/kitchen/fridge
+$ mv apples.txt crisper-drawer
+‘apples.txt’ -> ‘crisper-drawer/apples.txt’
+joe_rizzo ~/Desktop/kitchen/fridge
+$ cd crisper drawer
+-bash: cd: crisper: No such file or directory
+joe_rizzo ~/Desktop/kitchen/fridge
+$ cd crisper-drawer
+joe_rizzo ~/Desktop/kitchen/fridge/crisper-drawer
+$ ls
+apples.txt  lettuce.txt  milk.txt
+joe_rizzo ~/Desktop/kitchen/fridge/crisper-drawer
+$ mv milk.txt ..
+‘milk.txt’ -> ‘../milk.txt’
+joe_rizzo ~/Desktop/kitchen/fridge/crisper-drawer
+$ cd ..
+joe_rizzo ~/Desktop/kitchen/fridge
+$ ls
+crisper-drawer/  freezer/  milk.txt
+joe_rizzo ~/Desktop/kitchen/fridge
+$ cd freezer
+joe_rizzo ~/Desktop/kitchen/fridge/freezer
+$ ls
+couch.txt  frozenpeas.txt  icecream.txt
+joe_rizzo ~/Desktop/kitchen/fridge/freezer
+$ rm couch.txt
+removed ‘couch.txt’
+joe_rizzo ~/Desktop/kitchen/fridge/freezer
+$ ls
+frozenpeas.txt	icecream.txt
+joe_rizzo ~/Desktop/kitchen/fridge/freezer
+$ cd ..
+joe_rizzo ~/Desktop/kitchen/fridge
+$ ls
+crisper-drawer/  freezer/  milk.txt
+joe_rizzo ~/Desktop/kitchen/fridge
+$ cd ..
+joe_rizzo ~/Desktop/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+joe_rizzo ~/Desktop/kitchen
+$ cd pantry
+joe_rizzo ~/Desktop/kitchen/pantry
+$ ls
+cans.txt  cereal.txt  crisper-drawer/
+joe_rizzo ~/Desktop/kitchen/pantry
+$ rm -r crisper-drawer
+removed ‘crisper-drawer/lettuce.txt’
+removed directory: ‘crisper-drawer’
+joe_rizzo ~/Desktop/kitchen/pantry
+$ ls
+cans.txt  cereal.txt
+joe_rizzo ~/Desktop/kitchen/pantry
+$ cd ..
+joe_rizzo ~/Desktop/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+joe_rizzo ~/Desktop/kitchen
+$ cd sink
+joe_rizzo ~/Desktop/kitchen/sink
+$ ls
+clean-dishes.txt  delete-me.txt  dirty-dishes.txt
+joe_rizzo ~/Desktop/kitchen/sink
+$ rm delete-me.txt
+removed ‘delete-me.txt’
+joe_rizzo ~/Desktop/kitchen/sink
+$ ls
+clean-dishes.txt  dirty-dishes.txt
+joe_rizzo ~/Desktop/kitchen/sink
+$ mkdir drying-rack
+mkdir: created directory ‘drying-rack’
+joe_rizzo ~/Desktop/kitchen/sink
+$ ls
+clean-dishes.txt  dirty-dishes.txt  drying-rack/
+joe_rizzo ~/Desktop/kitchen/sink
+$ mv clean-dishes drying-rack/
+mv: cannot stat ‘clean-dishes’: No such file or directory
+joe_rizzo ~/Desktop/kitchen/sink
+$ mv clean-dishes.txt drying-rack/
+‘clean-dishes.txt’ -> ‘drying-rack/clean-dishes.txt’
+joe_rizzo ~/Desktop/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+joe_rizzo ~/Desktop/kitchen/sink
+$ cd drying-rack/
+joe_rizzo ~/Desktop/kitchen/sink/drying-rack
+$ ls
+clean-dishes.txt
+joe_rizzo ~/Desktop/kitchen/sink/drying-rack
+$ cd .. ..
+joe_rizzo ~/Desktop/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+joe_rizzo ~/Desktop/kitchen/sink
+$ cd ..
+joe_rizzo ~/Desktop/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+joe_rizzo ~/Desktop/kitchen
+$ cd trashcan
+joe_rizzo ~/Desktop/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+joe_rizzo ~/Desktop/kitchen/trashcan
+$ cd banana-peels.txt
+-bash: cd: banana-peels.txt: Not a directory
+joe_rizzo ~/Desktop/kitchen/trashcan
+$ 
